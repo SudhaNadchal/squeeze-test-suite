@@ -8,7 +8,7 @@ Selection of distinct test case in a test suite by eliminating the duplicate tes
 The model developed for this is developed using Orange. Orange is a comprehensive, component-based software suite for machine learning and data mining.
 
 Pre-requisite:
-A capability must be established to save the test cases in a test suite or test folder of interest as individual text files in a folder. This serves as input to the model. If any test case contains any attachments that needs to be ignored. If the test cases are managed in HP ALM, this can be established using REST API of ALM.
+A capability must be established to save the test cases in a test suite or test plan folder of interest as individual text files in a folder. This serves as input to the model. If any test case contains any attachments that needs to be ignored. If the test cases are managed in HP ALM, this can be established using REST API of ALM.
 
 **1. Setting up Orange:**
 
