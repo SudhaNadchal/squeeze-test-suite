@@ -1,4 +1,6 @@
 
+**Squeeze Test Suite using Orange**
+
 **What is it?**
 Selection of distinct test case in a test suite by eliminating the duplicate test cases and merging of functionally related test cases are the two major challenges in product testing. As a solution to these problems, I propose a data mining based model that anyone can use. This solution provides visual representation of two or more test case pairs in a test suite that are identical or functionally related. This can be used as an input in order to eliminate the duplicate test cases and also for functionally merging the test cases; thus making a leaner test suite.
 
