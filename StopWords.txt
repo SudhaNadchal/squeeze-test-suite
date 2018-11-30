@@ -1,0 +1,16 @@
+the
+Given
+When
+Then
+Scenario
+Feature
+are
+,
+.
+:
+!
+|
+<
+"
+#
+>
