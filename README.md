@@ -1,5 +1,5 @@
 
-**Squeeze Test Suite using Orange**
+## **Squeeze Test Suite using Orange**
 
 **What is it?**
 Selection of distinct test case in a test suite by eliminating the duplicate test cases and merging of functionally related test cases are the two major challenges in product testing. As a solution to these problems, I propose a data mining based model that anyone can use. This solution provides visual representation of two or more test case pairs in a test suite that are identical or functionally related. This can be used as an input in order to eliminate the duplicate test cases and also for functionally merging the test cases; thus making a leaner test suite.
@@ -27,7 +27,30 @@ Download or clone project squeeze-test-suite. Open workflow file "SqueezeTestSui
 
 
 **4. Import documents**
-Click on "Import 
+Click on "Import Documents" widget and import test case folder of choice. For the purpose of demonstrating I have imported the sample test cases for google search written in Gherkin syntax from the folder "GherkinTests" provided in this repo.
+
+![image](https://user-images.githubusercontent.com/4659907/49338041-0dd36680-f643-11e8-9cec-7c4383d6ae5f.png)
+
+**5. View the documents**
+Once the documents are imported, they can be viewed using Corpus viewer widget.
+
+![image](https://user-images.githubusercontent.com/4659907/49342553-da183100-f682-11e8-94a5-80a93124e3ee.png)
+
+**6 Text Preprocessing**
+Preprocessing a text is a vital step in text mining. Let's inspect the  text without any preprocessing from the corpus using word cloud widget.
+
+
+![image](https://user-images.githubusercontent.com/4659907/49342606-ae497b00-f683-11e8-959a-82a971a29617.png)
+
+It's indeed a clutter!.. Without any preprocessing, the most frequent words are punctuations, conjunctions and prepositions!
+
+![image](https://user-images.githubusercontent.com/4659907/49342754-15b3fa80-f685-11e8-80bf-3ced2fb3eebb.png)
+
+With preprocessing we can remove these frequently used and uninteresting words to get to the words of our interest.
+The punctuation can be removed by tokenization. The regular expression \w+ keeps only words and discards anything else. Additional preprocessing can be performed using stopwords.  The reason why stop words are critical is that, if we remove the words that are very commonly used in a given language, we can focus on the important words instead. Stopwords can be filtered by maintaining the list of commonly used words that does not add any value to distinctly identify the document.
+StopWords.txt file can be updated with uninterested/commonly used conjunctions and  prepositions for better text mining results.
+
+
 
 
 
