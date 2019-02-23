@@ -5,7 +5,8 @@
 Selection of distinct test case in a test suite by eliminating the duplicate test cases and merging of functionally related test cases are the two major challenges in testing of a product. As a solution to these problems, I propose a data mining based model that anyone can use. This solution provides visual representation of two or more test case pairs in a test suite that are identical or functionally related. This can be used as an input in order to eliminate the duplicate test cases and also for functionally merging the test cases; thus making a leaner test suite.
 
 **Test suite can be squeezed by combining functionally related test cases**
-![image](https://user-images.githubusercontent.com/4659907/49638785-43a39100-fa2f-11e8-9a6e-e6fdaf49ed15.png)
+![untitled diagram](https://user-images.githubusercontent.com/4659907/53282506-7c195800-375e-11e9-8c13-3241711c6bde.jpg)
+
 
 **Coming to the point..**
 The model developed for this is developed using Orange. Orange is a comprehensive, component-based software suite for machine learning and data mining.
@@ -59,7 +60,7 @@ StopWords.txt file can be updated with uninterested/commonly used conjunctions a
 
 
 
-
+![image](https://user-images.githubusercontent.com/4659907/49638785-43a39100-fa2f-11e8-9a6e-e6fdaf49ed15.png)
 
 
 
