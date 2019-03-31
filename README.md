@@ -81,10 +81,24 @@ The second component of tf-idf is inverse document frequency (idf). For a word t
 
 ![image](https://user-images.githubusercontent.com/4659907/55291586-98fc1780-53fd-11e9-8919-f4b1eeb99b7e.png)
 
+**8. Distances**:
+This widget computes the distances between rows/columns in a dataset.
 
+Inputs
+Data: input dataset
 
-**Test suite can be squeezed by combining functionally related test cases**
-![image](https://user-images.githubusercontent.com/4659907/49638785-43a39100-fa2f-11e8-9a6e-e6fdaf49ed15.png)
+Outputs
+Distances: distance matrix
+
+In this case the Distance Metric is choosen as Euclidean (“straight line”, shortest distance between two points).
+
+![image](https://user-images.githubusercontent.com/4659907/55292112-4114df00-5404-11e9-850d-b68d7ac662a9.png)
+
+If the distance is 0, it means that both objects are identical. The resulting distance matrix can be fed further to MDS(Multi Dimensional scaling) for mapping the data instances using the distance matrix.
+
+**9.Dimensionality reduction using MDS(Multi Dimensional scaling)**:
+Multidimensional scaling is a technique which finds a low-dimensional (in our case a two-dimensional) projection of points, where it tries to fit distances between points as well as possible.
+
 
 
 
