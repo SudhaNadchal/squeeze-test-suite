@@ -67,6 +67,10 @@ StopWords.txt file can be updated with uninterested/commonly used conjunctions a
 
 Note: Preprocess Text applies preprocessing steps in the order they are listed. This means it will first transform the text, then apply tokenization and so on..
 
+**7. Bag of Words **
+![image](https://user-images.githubusercontent.com/4659907/55291198-8e3f8380-53f9-11e9-8eff-16744b1c41dd.png)
+
+
 
 
 **Test suite can be squeezed by combining functionally related test cases**
