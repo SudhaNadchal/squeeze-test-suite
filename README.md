@@ -50,11 +50,22 @@ It's indeed a clutter!.. Without any preprocessing, the most frequent words are 
 ![image](https://user-images.githubusercontent.com/4659907/49342754-15b3fa80-f685-11e8-80bf-3ced2fb3eebb.png)
 
 With preprocessing we can remove these frequently used and uninteresting words to get to the words of our interest.
-The punctuation can be removed by tokenization. The regular expression \w+ keeps only words and discards anything else. Additional preprocessing can be performed using stopwords.  The reason why stop words are critical is that, if we remove the words that are very commonly used in a given language, we can focus on the important words instead. Stopwords can be filtered by maintaining the list of commonly used words that does not add any value to distinctly identify the document.
+a. Tokenization: Tokenization is the method of breaking the text into smaller components (words). punctuation can be removed by tokenization. The regular expression \w+ keeps only words and discards anything else.
+b.Normalization: It applies stemming and lemmatization to words. Stemming is the process of producing morphological variants of a root/base word. Stemming programs are commonly referred to as stemming algorithms or stemmers. A stemming algorithm reduces the words “chocolates”, “chocolatey”, “choco” to the root word, “chocolate” and “retrieval”, “retrieved”, “retrieves” reduce to the stem “retrieve”.
+
+Eg: I’ve always loved cats. → I have alway love cat. For languages other than English use Snowball Stemmer.
+
+Some more example of stemming for root word "like" include:
+-> "likes"
+-> "liked"
+-> "likely"
+-> "liking"
+
+c.Filtering: Additional preprocessing can be performed using stopwords.  The reason why stop words are critical is that, if we remove the words that are very commonly used in a given language, we can focus on the important words instead. Stopwords can be filtered by maintaining the list of commonly used words that does not add any value to distinctly identify the document.
 StopWords.txt file can be updated with uninterested/commonly used conjunctions and  prepositions for better text mining results.
 
 
-
+Note: Preprocess Text applies preprocessing steps in the order they are listed. This means it will first transform the text, then apply tokenization and so on..
 
 
 
